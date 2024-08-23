@@ -16,8 +16,8 @@ Run any remaining commands in the `Gorge` directory.
 
 Setup the database:
 ```
-sqlite3 db/gorge.db < db/schema.sql
-sqlite3 db/gorge.db < db/questions.sql
+sqlite3 db/grail.db < db/schema.sql
+sqlite3 db/grail.db < db/questions.sql
 ```
 
 To run: `plackup bin/app.psgi`
